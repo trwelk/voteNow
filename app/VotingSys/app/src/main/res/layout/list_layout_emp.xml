@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/button_style_att"
+    android:padding="2dp"
+    android:weightSum="2">
+
+    <RelativeLayout
+
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_marginTop="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:textStyle="italic"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="EMP ID"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/poli_has_elc_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="107dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:textStyle="italic"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Name"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_marginTop="135dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Mobile"
+                android:textStyle="italic"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/person_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:visibility="invisible"
+            android:layout_marginTop="160dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:text="Location"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:visibility="invisible"
+            android:layout_marginTop="180dp">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:text="Rec id"
+                android:textColor="@color/textcardColor"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/poli_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:textColor="@color/textcardColor"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="2dp"
+            android:layout_marginTop="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_style_att"
+                android:src="@drawable/pw" />
+
+            <Button
+                android:layout_marginLeft="15dp"
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/vote"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/rounded_update_button"
+                android:text="Vote" />
+
+            <Button
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/call"
+                android:textColor="@color/white"
+                android:layout_width="75dp"
+                android:textStyle="italic"
+                android:layout_height="70dp"
+               android:background="@drawable/rounded_login_button"
+                android:text="Call" />
+
+            <TextView
+                android:layout_marginLeft="@dimen/fab_margin"
+                android:id="@+id/poli_vote_number"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:background="@drawable/button_style_att"
+                android:text="6"
+                android:textColor="#00FF37"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

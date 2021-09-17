@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FCFCFC"
+    android:padding="2dp"
+    android:weightSum="2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="IN Time"
+                android:layout_weight="1" />
+            <TextView
+
+                android:id="@+id/txt"
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="OUT Time"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt1"
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="Loc IN/OUT"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt2"
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="OT Hours"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt3"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="Approvel"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt4"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="125dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:textStyle="italic"
+                android:textColor="#ffff"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:text="Leave"
+                android:layout_weight="1" />
+            <TextView
+                android:id="@+id/txt5"
+                android:textStyle="italic"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:textColor="#0C0C0C"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:text="Record id"
+                android:layout_weight="1"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txt6"
+                android:textColor="#0C0C0C"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

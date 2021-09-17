@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Vote_listActivity">
+    <LinearLayout
+        android:background="@drawable/button_style_att"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="3dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+            <TextView
+                android:id="@+id/detp_total"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#070707"
+                android:textSize="15dp"
+                android:background="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/detp_name_titel"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:textColor="#070707"
+                android:textSize="15dp"
+                android:background="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <ListView
+            android:clickable="false"
+            android:focusable="false"
+            android:id="@+id/listview_emp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="0dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

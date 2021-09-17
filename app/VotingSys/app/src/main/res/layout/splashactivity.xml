@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textcardColor">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/bg_top_header"
+        android:background="@drawable/ic_bg_topheader"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Voting Application Login"
+        android:textColor="#02FFD8"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:text="Please wait ..."
+        android:textColor="#02FFD8"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <ProgressBar
+        android:id="@+id/progressid"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="250dp"
+        android:foregroundGravity="center"
+        android:visibility="invisible" />
+
+</RelativeLayout>
